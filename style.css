@@ -172,8 +172,14 @@ section {
     margin: auto 0;
 }
 
+.section__pic-container img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
 .section__text {
-    align-self: center;
+    align-self: center;s
     text-align: center;
 }
 
@@ -275,11 +281,15 @@ section {
 .about-details-container {
     display: flex;
 }
-
+.details-container p, h3 {
+    font-size: 1.15rem;
+}
 .about-pic {
     border-radius: 2rem;
 }
-
+.text-container p {
+    font-size: 1.25rem;
+}
 .arrow {
     position: absolute;
     right: -5rem;
