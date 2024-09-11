@@ -213,6 +213,8 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 1rem;
+    margin-top: auto;
 }
 
 .btn {
@@ -369,6 +371,16 @@ article .icon {
 .project-btn {
     color: black;
     border-color: rgb(163,163,163);
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #333; /* A dark grey for readability */
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.6; /* Improves readability by spacing out the lines */
+    text-align: justify; /* Makes the description more structured */
+    width: 90%; /* Slightly smaller than the project image for alignment */
+    max-width: 700px; /* Ensures it doesn’t get too wide on larger screens */
 }
 
 /* CONTACT */
